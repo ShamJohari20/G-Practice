@@ -11,6 +11,13 @@ public class Sample {
 
         // Print the result of the addition.
         System.out.println("The sum of " + num1 + " and " + num2 + " is: " + sum);
+	
+	// Example of an if-else statement.
+        if (sum > 10) {
+            System.out.println("The sum is greater than 10.");
+        } else {
+            System.out.println("The sum is not greater than 10.");
+        }
 
     }
 }
