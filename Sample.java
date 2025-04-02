@@ -24,7 +24,13 @@ public class Sample {
         for (int i = 1; i <= 5; i++) {
             System.out.println(i);
         }
-
+	
+	//Example of an array.
+        int[] numbers = {1,2,3,4,5};
+        System.out.println("Printing the elements of the array:");
+        for(int number : numbers) {
+            System.out.println(number);
+        }
 
     }
 }
